@@ -199,6 +199,34 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FwT-lJ-KBw">
+                                <rect key="frame" x="75" y="692" width="264" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="0"/>
+                                    <segment title="1"/>
+                                    <segment title="3"/>
+                                    <segment title="5"/>
+                                    <segment title="9이상"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeSmileSegment:" destination="Qlx-wb-z4Z" eventType="valueChanged" id="0de-rL-KoG"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오늘 하루 얼마나 웃었나요? (횟수)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b11-mI-8Pu">
+                                <rect key="frame" x="75" y="663" width="229" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="지구오락실 보러 갑시다!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="em0-eB-gzE">
+                                <rect key="frame" x="75" y="731" width="264" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z9f-jG-9VB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -221,6 +249,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="smileLabel" destination="em0-eB-gzE" id="PRu-sa-LsY"/>
                         <outletCollection property="labelCollection" destination="JWe-xW-qft" collectionClass="NSMutableArray" id="8aV-Te-Wqr"/>
                         <outletCollection property="labelCollection" destination="BGj-l8-gxI" collectionClass="NSMutableArray" id="ZYR-cm-3fC"/>
                         <outletCollection property="labelCollection" destination="GrW-K6-qn4" collectionClass="NSMutableArray" id="eVH-9r-EUu"/>

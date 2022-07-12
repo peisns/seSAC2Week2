@@ -9,16 +9,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet var labelCollection: [UILabel]!
     
     var emotionArray:Array<Int> = [0,0,0,0,0,0,0,0,0]
-
+    
+    enum SmileCount: Int {
+        case zero = 0
+        case one
+        case three = 3
+        case five = 5
+        case moreNine = 9
+    }
+    @IBOutlet weak var smileLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        smileLabel.numberOfLines = 0
     }
 
     @IBAction func firstClicked(_ sender: UIButton) {
-        print(sender.tag)
         emotionArray[sender.tag] += 1
         labelCollection[0].text = "행복해 \(emotionArray[0])"
         labelCollection[1].text = "사랑해 \(emotionArray[1])"
@@ -29,24 +40,24 @@ class ViewController: UIViewController {
         labelCollection[6].text = "심심해 \(emotionArray[6])"
         labelCollection[7].text = "행복해 \(emotionArray[7])"
         labelCollection[8].text = "행복해 \(emotionArray[8])"
-//        showAlertController()
     }
     
-//    func showAlertController() {
-//        //1. 흰바탕 UIAlertController
-//        let alert = UIAlertController(title: "타이틀", message: "메시지", preferredStyle:.alert)
-//        //2. 버튼
-//        let ok = UIAlertAction(title: "확인", style: .destructive, handler: nil)
-//        let cancel = UIAlertAction(title: "취소", style: .cancel, handler: nil)
-//        let web = UIAlertAction(title: "새 창으로 열기", style: .default, handler: nil)
-//        let copy = UIAlertAction(title: "복사", style: .default, handler: nil)
-//
-////        alert.addAction(copy)
-//        alert.addAction(web)
-//        alert.addAction(cancel)
-//        alert.addAction(ok)
-//
-//        present(alert, animated: true, completion: nil)
-//    }
+    @IBAction func changeSmileSegment(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0 :
+            smileLabel.text = "당장 지구오락실 보러 갑시다!"
+        case 1 :
+            smileLabel.text = "\(SmileCount.one.rawValue)번이라도 웃는 당신이 좋아요"
+        case 2 :
+            smileLabel.text = "\(SmileCount.three.rawValue)번. 아침, 점심, 저녁~?"
+        case 3 :
+            smileLabel.text = "\(SmileCount.five.rawValue)번 웃었어요? 꽤 웃었네요!? :)"
+        case 4 :
+            smileLabel.text = "\(SmileCount.moreNine.rawValue)번이라니! 웃음을 나눠주세요!!"
+        default:
+            smileLabel.text = "에러 발생"
+        }
+    }
+    
 }
     
