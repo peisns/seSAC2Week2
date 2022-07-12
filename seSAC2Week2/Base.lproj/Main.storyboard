@@ -31,68 +31,250 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8D-wt-aQR">
-                                <rect key="frame" x="58" y="218" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime1"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWT-Ut-viD">
-                                <rect key="frame" x="173" y="218" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjB-Fu-MsA">
-                                <rect key="frame" x="283" y="218" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime3"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLu-Mu-USQ">
-                                <rect key="frame" x="58" y="352" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime4"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KM9-9E-N8a">
-                                <rect key="frame" x="173" y="352" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime5"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yt5-Ca-E6B">
-                                <rect key="frame" x="283" y="352" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime6"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYc-rQ-WIi">
-                                <rect key="frame" x="55" y="456" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime7"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wc-a6-v4w">
-                                <rect key="frame" x="170" y="456" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime8"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9B-n0-BZ8">
-                                <rect key="frame" x="283" y="456" width="91" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="sesac_slime9"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="D49-Ng-uhM" userLabel="centerStack View">
+                                <rect key="frame" x="165.5" y="273" width="83" height="350"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xk-p0-jls">
+                                        <rect key="frame" x="0.0" y="0.0" width="83" height="83"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="4xk-p0-jls" secondAttribute="height" multiplier="1:1" id="lNN-Ts-Rkt"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime2"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="87w-qe-GYU"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사랑해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGj-l8-gxI">
+                                        <rect key="frame" x="12" y="91" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLg-QB-XWe">
+                                        <rect key="frame" x="0.0" y="119.5" width="83" height="82.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="uLg-QB-XWe" secondAttribute="height" multiplier="1:1" id="JVW-yv-Tcb"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime5"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="kEj-Ib-GON"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="속상해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qR5-6b-7Oh">
+                                        <rect key="frame" x="12" y="210" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMV-Pf-8tv">
+                                        <rect key="frame" x="0.0" y="238.5" width="83" height="83"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="FMV-Pf-8tv" secondAttribute="height" multiplier="1:1" id="Cc6-Up-scv"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime8"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="75p-84-56T"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXs-PB-FOm">
+                                        <rect key="frame" x="12" y="329.5" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kdX-QD-ubj" userLabel="rightStack View">
+                                <rect key="frame" x="256.5" y="273" width="82.5" height="350"/>
+                                <subviews>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zz1-bj-1Cp">
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="83"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Zz1-bj-1Cp" secondAttribute="height" multiplier="1:1" id="gBI-eu-J0Y"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime3"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="Sri-rI-g6r"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="좋아해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrW-K6-qn4">
+                                        <rect key="frame" x="12" y="91" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtm-RC-eku">
+                                        <rect key="frame" x="0.0" y="119.5" width="82.5" height="82.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Wtm-RC-eku" secondAttribute="height" multiplier="1:1" id="5Er-hp-BVg"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime6"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="dou-Rc-qC9"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우울해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="por-Jk-WnF">
+                                        <rect key="frame" x="12" y="210" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF0-ea-rYd">
+                                        <rect key="frame" x="0.0" y="238.5" width="82.5" height="83"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="gF0-ea-rYd" secondAttribute="height" multiplier="1:1" id="NFS-1f-gTg"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime9"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="VHl-nf-yTd"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="좋아해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-mB-ggD">
+                                        <rect key="frame" x="12" y="329.5" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="euD-GP-QzP" userLabel="leftStack View">
+                                <rect key="frame" x="75" y="273" width="82.5" height="350"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pi0-03-6rI">
+                                        <rect key="frame" x="0.0" y="0.0" width="82.5" height="83"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Pi0-03-6rI" secondAttribute="height" multiplier="1:1" id="xtQ-Q7-BNv"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="E0C-TQ-X3w"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWe-xW-qft">
+                                        <rect key="frame" x="11.5" y="91" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RvN-Ar-p2A">
+                                        <rect key="frame" x="0.0" y="119.5" width="82.5" height="82.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="RvN-Ar-p2A" secondAttribute="height" multiplier="1:1" id="p3l-d9-enA"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime4"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="qdg-cu-4vM"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당황해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwk-w7-tyh">
+                                        <rect key="frame" x="11.5" y="210" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlf-fS-iQe">
+                                        <rect key="frame" x="0.0" y="238.5" width="82.5" height="83"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Zlf-fS-iQe" secondAttribute="height" multiplier="1:1" id="ITq-xL-beR"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime7"/>
+                                        <connections>
+                                            <action selector="firstClicked:" destination="Qlx-wb-z4Z" eventType="touchUpInside" id="bAb-xj-ZCa"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="심심해 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUQ-nU-Hek">
+                                        <rect key="frame" x="11.5" y="329.5" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z9f-jG-9VB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RvN-Ar-p2A" firstAttribute="width" secondItem="uLg-QB-XWe" secondAttribute="width" id="1XD-Od-uTX"/>
+                            <constraint firstItem="Zz1-bj-1Cp" firstAttribute="width" secondItem="4xk-p0-jls" secondAttribute="width" id="9GE-ev-BOL"/>
+                            <constraint firstItem="D49-Ng-uhM" firstAttribute="centerY" secondItem="3Wj-7U-Mpv" secondAttribute="centerY" id="BrK-46-Bnh"/>
+                            <constraint firstItem="Pi0-03-6rI" firstAttribute="width" secondItem="uLg-QB-XWe" secondAttribute="width" id="CSc-z4-fMk"/>
+                            <constraint firstItem="euD-GP-QzP" firstAttribute="centerY" secondItem="3Wj-7U-Mpv" secondAttribute="centerY" id="HOm-1J-ZWK"/>
+                            <constraint firstItem="4xk-p0-jls" firstAttribute="width" secondItem="3Wj-7U-Mpv" secondAttribute="width" multiplier="0.2" id="Lpk-Ya-39x"/>
+                            <constraint firstItem="gF0-ea-rYd" firstAttribute="width" secondItem="4xk-p0-jls" secondAttribute="width" id="N6y-hB-4yw"/>
+                            <constraint firstItem="Zlf-fS-iQe" firstAttribute="width" secondItem="uLg-QB-XWe" secondAttribute="width" id="QLp-xl-38c"/>
+                            <constraint firstItem="D49-Ng-uhM" firstAttribute="leading" secondItem="euD-GP-QzP" secondAttribute="trailing" constant="8" id="Uie-EZ-fkC"/>
+                            <constraint firstItem="D49-Ng-uhM" firstAttribute="centerX" secondItem="3Wj-7U-Mpv" secondAttribute="centerX" id="gcX-UW-cCX"/>
+                            <constraint firstItem="Wtm-RC-eku" firstAttribute="width" secondItem="4xk-p0-jls" secondAttribute="width" id="kud-Q5-L2j"/>
+                            <constraint firstItem="kdX-QD-ubj" firstAttribute="centerY" secondItem="3Wj-7U-Mpv" secondAttribute="centerY" id="l9B-fM-4gd"/>
+                            <constraint firstItem="FMV-Pf-8tv" firstAttribute="width" secondItem="3Wj-7U-Mpv" secondAttribute="width" multiplier="0.2" id="qyB-1h-tOl"/>
+                            <constraint firstItem="uLg-QB-XWe" firstAttribute="width" secondItem="3Wj-7U-Mpv" secondAttribute="width" multiplier="0.2" id="uKE-F5-ZiQ"/>
+                            <constraint firstItem="kdX-QD-ubj" firstAttribute="leading" secondItem="D49-Ng-uhM" secondAttribute="trailing" constant="8" id="z0i-Dp-o28"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="labelCollection" destination="JWe-xW-qft" collectionClass="NSMutableArray" id="8aV-Te-Wqr"/>
+                        <outletCollection property="labelCollection" destination="BGj-l8-gxI" collectionClass="NSMutableArray" id="ZYR-cm-3fC"/>
+                        <outletCollection property="labelCollection" destination="GrW-K6-qn4" collectionClass="NSMutableArray" id="eVH-9r-EUu"/>
+                        <outletCollection property="labelCollection" destination="wwk-w7-tyh" collectionClass="NSMutableArray" id="0Jt-Xn-IXY"/>
+                        <outletCollection property="labelCollection" destination="qR5-6b-7Oh" collectionClass="NSMutableArray" id="Bfp-Nh-i4E"/>
+                        <outletCollection property="labelCollection" destination="por-Jk-WnF" collectionClass="NSMutableArray" id="M8v-uW-fX2"/>
+                        <outletCollection property="labelCollection" destination="FUQ-nU-Hek" collectionClass="NSMutableArray" id="EEe-OC-ZUw"/>
+                        <outletCollection property="labelCollection" destination="WXs-PB-FOm" collectionClass="NSMutableArray" id="UpX-dC-Cws"/>
+                        <outletCollection property="labelCollection" destination="oUQ-mB-ggD" collectionClass="NSMutableArray" id="wbg-MP-Cq3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qI-lx-ePx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-352.17391304347831" y="-862.5"/>
+        </scene>
+        <!--Segmented View Controller-->
+        <scene sceneID="MI8-Wf-kT5">
+            <objects>
+                <viewController id="MBT-Ef-DWJ" customClass="segmentedViewController" customModule="seSAC2Week2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K5u-BC-CGO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pha-da-vpt">
+                                <rect key="frame" x="90" y="157" width="138" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="C8b-wQ-CtB">
+                                <rect key="frame" x="90" y="76" width="234" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentControlValueChanged:" destination="MBT-Ef-DWJ" eventType="valueChanged" id="b2Q-vN-vTf"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Vl-ni-krd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="pha-da-vpt" id="Sbf-hL-hpe"/>
+                        <outlet property="segmentControl" destination="C8b-wQ-CtB" id="rpV-M8-v3O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfT-QG-v8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360.86956521739131" y="-863.16964285714278"/>
         </scene>
     </scenes>
     <resources>
