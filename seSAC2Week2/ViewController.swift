@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        smileLabel.numberOfLines = 0
     }
 
     @IBAction func firstClicked(_ sender: UIButton) {
