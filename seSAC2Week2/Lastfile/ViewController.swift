@@ -21,13 +21,23 @@ class ViewController: UIViewController {
         case five = 5
         case moreNine = 9
     }
+
     @IBOutlet weak var smileLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if UserDefaults.standard.array(forKey: "emotionArray") != nil {
+//            emotionArray = UserDefaults.standard.array(forKey: "emotionArray")!
+        }
     }
-
+    
+    @IBAction func saveButtonClicked(_ sender: UIButton) {
+        UserDefaults.standard.set(emotionArray, forKey: "emotionArray")
+    }
+    
+    
+    
     @IBAction func firstClicked(_ sender: UIButton) {
         emotionArray[sender.tag] += 1
         labelCollection[0].text = "행복해 \(emotionArray[0])"

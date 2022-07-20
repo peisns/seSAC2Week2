@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YxD-qe-VeO">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--stopwatch-->
+        <scene sceneID="Ts4-W8-bD6">
+            <objects>
+                <viewController title="stopwatch" id="HJi-KN-Vb1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IXh-nV-9J8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zEX-aV-o5u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="스톱워치" image="stopwatch.fill" catalog="system" id="QaG-ab-qir"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rwc-pw-9xV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="51"/>
+        </scene>
+        <!--timer-->
+        <scene sceneID="6ab-Kp-QkB">
+            <objects>
+                <viewController title="timer" id="ylc-gH-pZD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uCH-np-AES">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0gs-NM-cCa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="타이머" image="timer" catalog="system" id="l8a-Hc-nmm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5c8-Rt-jz2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="51"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="N4m-Qg-Orm">
+            <objects>
+                <tabBarController id="YxD-qe-VeO" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3Ut-ez-akG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WNH-9U-Evm" kind="relationship" relationship="viewControllers" id="m9b-8X-Jgr"/>
+                        <segue destination="0id-Lp-ghR" kind="relationship" relationship="viewControllers" id="e27-IS-DDI"/>
+                        <segue destination="HJi-KN-Vb1" kind="relationship" relationship="viewControllers" id="pnf-84-rvf"/>
+                        <segue destination="ylc-gH-pZD" kind="relationship" relationship="viewControllers" id="SAT-Dk-URq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVr-mX-bhf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1081" y="51"/>
+        </scene>
+        <!--alarm-->
+        <scene sceneID="GV0-Y6-ihw">
+            <objects>
+                <tableViewController title="alarm" id="0id-Lp-ghR" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="nRI-mc-WSz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hmw-Lh-gHs">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hmw-Lh-gHs" id="og0-H3-NV6">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0id-Lp-ghR" id="fo5-JS-pH4"/>
+                            <outlet property="delegate" destination="0id-Lp-ghR" id="g3t-LK-DqT"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="알람" image="alarm.fill" catalog="system" id="ItT-qJ-9sN"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qhV-QH-LtP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="345" y="51"/>
+        </scene>
+        <!--world-->
+        <scene sceneID="Idb-92-OYy">
+            <objects>
+                <tableViewController title="world" id="WNH-9U-Evm" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="EWs-IS-8x2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8fz-sp-Yeo">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8fz-sp-Yeo" id="oC9-VJ-BIm">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="WNH-9U-Evm" id="sc4-vW-EEW"/>
+                            <outlet property="delegate" destination="WNH-9U-Evm" id="8rJ-uK-k9K"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="세계 시계" image="globe" catalog="system" id="MxF-Y8-feG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gYI-a4-UAD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-332" y="51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alarm.fill" catalog="system" width="124" height="128"/>
+        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="stopwatch.fill" catalog="system" width="121" height="128"/>
+        <image name="timer" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
