@@ -13,19 +13,24 @@ class IntroTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //
-//        tabBar.isTranslucent = true
-//        tabBar.unselectedItemTintColor = .white
-//        tabBar.tintColor = .orange
+        tabBar.isTranslucent = true
+        tabBar.unselectedItemTintColor = .white
+        tabBar.tintColor = .orange
+
+        let tabBarStandardAppearance = UITabBarAppearance()
+        tabBarStandardAppearance.backgroundEffect = UIBlurEffect(style: .dark)
+        tabBarStandardAppearance.backgroundColor = .black
+        tabBar.standardAppearance = tabBarStandardAppearance
+
+        let tabBarScrollEdgeAppearance = UITabBarAppearance()
+        tabBarScrollEdgeAppearance.backgroundColor = .black
+        tabBar.scrollEdgeAppearance = tabBarScrollEdgeAppearance
+        
+//        let tabBarButtonStandardAppearance = UIBarButtonItemAppearance()
+//        tabBarButtonStandardAppearance.normal.titleTextAttributes = [.foregroundColor:UIColor.white]
 //
-//        let tabBarStandardAppearance = UITabBarAppearance()
-//        tabBarStandardAppearance.backgroundEffect = UIBlurEffect(style: .dark)
-//        tabBarStandardAppearance.backgroundColor = .white
-//
-//        let tabBarScrollEdgeAppearance = UITabBarAppearance()
-//        tabBarScrollEdgeAppearance.backgroundColor = .black
-//
-//        tabBar.standardAppearance = tabBarStandardAppearance
-//        tabBar.scrollEdgeAppearance = tabBarScrollEdgeAppearance
+//        let tabBarButtonScrollEdgeAppearance = UIBarButtonItemAppearance()
+//        tabBarButtonStandardAppearance.normal.titleTextAttributes = [.foregroundColor:UIColor.white]
         
     }
     

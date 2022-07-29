@@ -20,11 +20,29 @@ class WorldViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .black
-        title = "세계 시계"
-        self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        //title = "세계 시계"
+        
+        
+        //change navigation bar title color
+//        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+//        print(navigationController)
+//        navigationController?.navigationBar.tintColor = .white
+//        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        
+        let navi = UINavigationBarAppearance()
+        navi.configureWithTransparentBackground()
+        
+        navi.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.scrollEdgeAppearance = navi
+        navigationController?.navigationBar.standardAppearance = navi
+        navigationController?.navigationBar.compactAppearance = navi
+        
 
+        
         headerViewOfTableView.backgroundColor = .clear
         labelInHeaderView.textColor = .white
+        
         
         worldTableView.delegate = self
         worldTableView.dataSource = self
@@ -38,7 +56,7 @@ class WorldViewController: UIViewController {
 extension WorldViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return 8
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
