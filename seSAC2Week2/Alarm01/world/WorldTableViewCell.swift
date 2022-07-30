@@ -10,6 +10,5 @@ import UIKit
 class WorldTableViewCell: UITableViewCell {
     static let identifier = "WorldTableViewCell"
 
-    @IBOutlet var labelCollection: [UILabel]!
     
 }

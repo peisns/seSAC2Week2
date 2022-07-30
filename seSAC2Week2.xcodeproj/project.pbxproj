@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351DF2ED2894C313004809C1 /* UIViewContorller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351DF2EC2894C313004809C1 /* UIViewContorller+Extension.swift */; };
 		353ED19228885C60005214A7 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353ED19128885C60005214A7 /* Intro.storyboard */; };
 		3573CDA8287BA52800569CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573CDA7287BA52800569CB7 /* AppDelegate.swift */; };
 		3573CDAA287BA52800569CB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573CDA9287BA52800569CB7 /* SceneDelegate.swift */; };
@@ -17,13 +18,14 @@
 		3595613E28892D7C0011E681 /* WorldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595613D28892D7C0011E681 /* WorldTableViewCell.swift */; };
 		35AFEB4B287D2138002F92A6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFEB4A287D2138002F92A6 /* SecondViewController.swift */; };
 		35B4E8A02892D031007D1441 /* IntroTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4E89F2892D031007D1441 /* IntroTabBarViewController.swift */; };
-		35B4E8A22892DBAF007D1441 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4E8A12892DBAF007D1441 /* WorldViewController.swift */; };
 		35B90FC72880F04A0041D467 /* SecondTransition01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B90FC62880F04A0041D467 /* SecondTransition01ViewController.swift */; };
 		35B90FC92880FE0A0041D467 /* SecondTrasition02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B90FC82880FE0A0041D467 /* SecondTrasition02ViewController.swift */; };
+		35EB8FAE2894BFF4006A1101 /* WorldTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EB8FAD2894BFF4006A1101 /* WorldTableViewController.swift */; };
 		35F659992880E87E00BEFDF6 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F659982880E87E00BEFDF6 /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351DF2EC2894C313004809C1 /* UIViewContorller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewContorller+Extension.swift"; path = "seSAC2Week2/UIViewContorller+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		353ED19128885C60005214A7 /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
 		3573CDA4287BA52800569CB7 /* seSAC2Week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seSAC2Week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3573CDA7287BA52800569CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,9 +38,9 @@
 		3595613D28892D7C0011E681 /* WorldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTableViewCell.swift; sourceTree = "<group>"; };
 		35AFEB4A287D2138002F92A6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		35B4E89F2892D031007D1441 /* IntroTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroTabBarViewController.swift; sourceTree = "<group>"; };
-		35B4E8A12892DBAF007D1441 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
 		35B90FC62880F04A0041D467 /* SecondTransition01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTransition01ViewController.swift; sourceTree = "<group>"; };
 		35B90FC82880FE0A0041D467 /* SecondTrasition02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTrasition02ViewController.swift; sourceTree = "<group>"; };
+		35EB8FAD2894BFF4006A1101 /* WorldTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTableViewController.swift; sourceTree = "<group>"; };
 		35F659982880E87E00BEFDF6 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				3595613D28892D7C0011E681 /* WorldTableViewCell.swift */,
-				35B4E8A12892DBAF007D1441 /* WorldViewController.swift */,
+				35EB8FAD2894BFF4006A1101 /* WorldTableViewController.swift */,
+				351DF2EC2894C313004809C1 /* UIViewContorller+Extension.swift */,
 			);
 			path = World;
 			sourceTree = "<group>";
@@ -190,9 +193,10 @@
 			files = (
 				35B90FC92880FE0A0041D467 /* SecondTrasition02ViewController.swift in Sources */,
 				3573CDAC287BA52800569CB7 /* ViewController.swift in Sources */,
-				35B4E8A22892DBAF007D1441 /* WorldViewController.swift in Sources */,
 				35B4E8A02892D031007D1441 /* IntroTabBarViewController.swift in Sources */,
 				3573CDA8287BA52800569CB7 /* AppDelegate.swift in Sources */,
+				351DF2ED2894C313004809C1 /* UIViewContorller+Extension.swift in Sources */,
+				35EB8FAE2894BFF4006A1101 /* WorldTableViewController.swift in Sources */,
 				3573CDAA287BA52800569CB7 /* SceneDelegate.swift in Sources */,
 				35B90FC72880F04A0041D467 /* SecondTransition01ViewController.swift in Sources */,
 				3595613E28892D7C0011E681 /* WorldTableViewCell.swift in Sources */,
