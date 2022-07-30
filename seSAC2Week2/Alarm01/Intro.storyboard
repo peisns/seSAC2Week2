@@ -17,28 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Obn-4l-RyA">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <view key="tableHeaderView" contentMode="scaleToFill" id="cj8-l5-T3k">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시계 세계" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULS-jO-Zmo">
-                                            <rect key="frame" x="8" y="34" width="64" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="88" id="q7s-Pr-ZWa"/>
-                                    </constraints>
-                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WorldTableViewCell" rowHeight="110" id="qAY-cD-U2R" customClass="WorldTableViewCell" customModule="seSAC2Week2" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="132.5" width="414" height="110"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qAY-cD-U2R" id="w6s-4j-H1z">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
@@ -82,7 +65,7 @@
                             <constraint firstItem="MSx-yb-TmR" firstAttribute="trailing" secondItem="Obn-4l-RyA" secondAttribute="trailing" id="5tG-gl-lD6"/>
                             <constraint firstItem="Obn-4l-RyA" firstAttribute="leading" secondItem="MSx-yb-TmR" secondAttribute="leading" id="Klm-5K-gAt"/>
                             <constraint firstAttribute="bottom" secondItem="Obn-4l-RyA" secondAttribute="bottom" id="sU4-Ac-YXf"/>
-                            <constraint firstItem="Obn-4l-RyA" firstAttribute="top" secondItem="MSx-yb-TmR" secondAttribute="top" id="yya-n1-D1H"/>
+                            <constraint firstItem="Obn-4l-RyA" firstAttribute="top" secondItem="Bpf-Wr-AqS" secondAttribute="top" id="yya-n1-D1H"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="시계 세계" id="jfS-aI-Zlb">
@@ -94,14 +77,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="headerViewOfTableView" destination="cj8-l5-T3k" id="z29-YZ-T7G"/>
-                        <outlet property="labelInHeaderView" destination="ULS-jO-Zmo" id="m8p-zU-1mj"/>
                         <outlet property="worldTableView" destination="Obn-4l-RyA" id="6Xb-4o-OHv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7yL-9Y-zi3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="478" y="19"/>
+            <point key="canvasLocation" x="476.81159420289856" y="18.75"/>
         </scene>
         <!--stopwatch-->
         <scene sceneID="Ts4-W8-bD6">
@@ -197,6 +178,17 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Q1-gN-nB8">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance" backgroundEffect="systemChromeMaterialDark">
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </textAttributes>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <textAttributes key="titleTextAttributes">
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </textAttributes>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

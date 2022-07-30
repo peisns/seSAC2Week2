@@ -8,41 +8,14 @@
 import UIKit
 
 class WorldViewController: UIViewController {
-
-    @IBOutlet weak var headerViewOfTableView: UIView!
-    @IBOutlet weak var labelInHeaderView: UILabel!
     
     @IBOutlet weak var worldTableView: UITableView!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .black
-        //title = "세계 시계"
-        
-        
-        //change navigation bar title color
-//        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
-//        print(navigationController)
-//        navigationController?.navigationBar.tintColor = .white
-//        navigationController?.navigationBar.titleTextAttributes = textAttributes
-        
-        let navi = UINavigationBarAppearance()
-        navi.configureWithTransparentBackground()
-        
-        navi.titleTextAttributes = [.foregroundColor: UIColor.white]
-        navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.scrollEdgeAppearance = navi
-        navigationController?.navigationBar.standardAppearance = navi
-        navigationController?.navigationBar.compactAppearance = navi
-        
-
-        
-        headerViewOfTableView.backgroundColor = .clear
-        labelInHeaderView.textColor = .white
-        
+        title = "세계 시계"
         
         worldTableView.delegate = self
         worldTableView.dataSource = self
